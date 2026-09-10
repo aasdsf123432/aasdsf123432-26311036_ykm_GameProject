@@ -19,7 +19,7 @@ int nTx;
 
 int Render()
 {
-	VEC2 pos(300, 200);		
+	VEC2 pos(0, 0);		
 	g2_Draw2D(nTx, {}, &pos);
 	return 0;
 }
@@ -35,7 +35,7 @@ int main()
 
 	g2_CreateWin(100, 100, 800, 600, "My First Game Window");
 
-	nTx = g2_TextureLoad("Texture/a.png");
+	nTx = g2_TextureLoad("Texture/table.png");
 
 	g2_Run();
 
