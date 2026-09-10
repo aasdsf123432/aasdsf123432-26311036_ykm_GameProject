@@ -19,7 +19,7 @@ int nTx;
 
 int Render()
 {
-	VEC2 pos(0, 0);		
+	VEC2 pos(50, 50);		
 	g2_Draw2D(nTx, {}, &pos);
 	return 0;
 }
